@@ -1,6 +1,7 @@
-want_instructions = input("Do you want to read the instructions? ")
+
 valid_input = False
 while valid_input == False:
+    want_instructions = input("Do you want to read the instructions? ").lower()
     if want_instructions == "yes":
         print("instructions go here")
         valid_input = True
